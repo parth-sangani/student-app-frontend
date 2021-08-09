@@ -60,6 +60,7 @@ function AddStudent(){
                 onChange={(e)=> {
                     setStudent({...student,department: e.target.value});
                     }}>
+                    <option selected>Select Department</option>
                     <option value="CS">CS</option>
                     <option value="IT">IT</option>
                     <option value="EXTC">EXTC</option>
